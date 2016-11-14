@@ -334,11 +334,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advenger" translatesAutoresizingMaskIntoConstraints="NO" id="vFa-ub-RyZ">
+                                        <rect key="frame" x="0.0" y="83" width="414" height="229"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8v-DM-0vw">
-                                        <rect key="frame" x="0.0" y="378" width="414" height="266"/>
+                                        <rect key="frame" x="0.0" y="375" width="414" height="262"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                        <mutableString key="text">個擁有永恆能量的神物「宇宙魔方」，在1942年時被納粹組織『九頭蛇』在挪威滕斯貝格發現，也同時喚醒了宇宙中的一個所向披靡的「外星文明」。在今日，『神盾局』開啟了魔方後開始在『聯合暗能量行動基地』進行能量提煉，卻無意間使得魔方的能量數值破表。特工菲爾·考森與瑪莉亞·希爾在尼克·福瑞的批准下撤離整個基地，而魔方卻突然以能量開啓一道與宇宙連通的傳送門，將「邪神」洛奇傳送了過來。洛奇當場殺死所有在場的護衛，利用自己含有能量的『權杖』控制了「鷹眼」克林特·巴頓，與支援神盾局的艾瑞克·沙維克後帶著魔方坐車離開。一秒鍾後，基地直接被能量破壞而完全崩塌到地下，洛奇等人則是帶著魔方安然逃離。
+                                        <string key="text">個擁有永恆能量的神物「宇宙魔方」，在1942年時被納粹組織『九頭蛇』在挪威滕斯貝格發現，也同時喚醒了宇宙中的一個所向披靡的「外星文明」。在今日，『神盾局』開啟了魔方後開始在『聯合暗能量行動基地』進行能量提煉，卻無意間使得魔方的能量數值破表。特工菲爾·考森與瑪莉亞·希爾在尼克·福瑞的批准下撤離整個基地，而魔方卻突然以能量開啓一道與宇宙連通的傳送門，將「邪神」洛奇傳送了過來。洛奇當場殺死所有在場的護衛，利用自己含有能量的『權杖』控制了「鷹眼」克林特·巴頓，與支援神盾局的艾瑞克·沙維克後帶著魔方坐車離開。一秒鍾後，基地直接被能量破壞而完全崩塌到地下，洛奇等人則是帶著魔方安然逃離。
 考森聯絡了「黑寡婦」娜塔莎·羅曼諾夫，命令她前往加爾各答會見因為伽瑪射線而變異的布魯斯·班納，以說服他幫助神盾局找回魔方。尼克親自會見了在健身房練拳擊的「美國隊長」史蒂芬·羅傑斯，而考森也來到紐約中心的由孤形反應爐進行再生清潔的『史塔克大樓』，會見了「鋼鐵人」東尼·史塔克，所有人在接受邀請下共同來到神盾局的『空中航空母艦總部』收聽情況。當天晚上，洛奇在斯圖加特用儀器割取一名醫學博士的眼球，然後傳送其立體掃瞄形象讓巴頓去拿博士收藏的世界稀有的銥元素去製作自己的『能量傳送機器』，自己一人來到廣場上讓眾人向他跪地，但最後被趕到的史蒂芬、娜塔莎、以及東尼聯手抓獲。
 三人將洛奇押回去的途中，遭遇了從天而降的「雷神索爾」索爾，幾個英雄因為意見不合而鬥了一場，在調解達成共識後將洛奇送回航空母艦，尼克也將他關進一個可以直接掉落至地面的隔離艙。東尼解釋他們搶走銥元素是為了確保新的傳送門不會崩塌，認為神盾局在「宇宙魔方計畫」上隱瞞某些事情，於是暗中將破解程式放在主電腦上。娜塔莎為了問清楚自己的搭檔巴頓被控制的事而去質問洛奇，洛奇卻利用從巴頓聽說的關於娜塔莎的背景及過去的事情將其威脅，但也在言多必失下被套出真正目的：身為「綠巨人浩克」的班納。東尼利用自己的人工智慧「賈維斯」破解了宇宙魔方計畫的秘密檔案、並發現了計畫神秘的「第二階段」。
 史蒂芬在貨艙搜索時，發現神盾局收藏著九頭蛇二戰時的裝備及武器，於是領略到第二階段是神盾局利用魔方的能量大規模製造高科技武器！尼克發現隱瞞不下去後，說出計畫是源於索爾在一年前的一切恩怨導致毀掉一座小鎮，而他們為了應對來自宇宙中其他具有「威脅性」的生命，才決定出此下策。索爾反駁認為地球被盯上是因為神盾局對魔方的開發，於是開始質疑尼克的領導能力；就在眾人開始起內訌時，巴頓與其他士兵利用洛奇的權杖而追蹤到航空母艦的位置，也利用高超弓箭技術和特製功能將航空母艦的引擎炸毀，導致整座航空母艦開始下落。
@@ -347,15 +351,11 @@
 此時，能量傳送機器在紐約天空開啓一座連接外太空的傳送門，而整裝待發的齊塔瑞大軍尾隨大門飛進紐約市大肆破壞。市民看到後慌亂逃離，史蒂芬等人到達後與齊塔瑞兵進行交戰、順便在疏散市民時與紐約警察聯手進行救援。一條齊塔瑞的「利維坦」運輸龍從傳送門飛進紐約市中，班納與索爾也在關鍵時刻趕到，班納於是直接變身成為綠巨人而將巨龍一拳打死，所有的齊塔瑞兵也即將對『復仇者聯盟』正式開戰！洛奇看到後命令全軍出動，身為隊長的史蒂芬一分派完任務，所有人開始互相在城市中進行大混戰。亂戰時，洛奇被弓箭炸回了大樓，甚至還大言不慚地對跳上來的班納斥喝自己是神，最後卻被班納打了個半死不活。
 娜塔莎到達屋頂後發現艾瑞克已經恢複意識，他提示與其能量相連的權杖是唯一可以關閉傳送機的儀器。在航空母艦中，當尼克拒絕了世界安理會的議員們關於核彈打擊的命令後，安理會只能自作主張命令一個飛行員開著戰鬥機，向紐約發射了一顆核導彈。在城市裏，所有英雄已精疲力竭，東尼以全速前進拿到核彈後與它一起飛進傳送門中。核彈危機排除後讓所有人一陣歡呼，身在太空裏的東尼用核彈將齊塔瑞兵的宇宙指揮船轟成了碎片，導致所有的齊塔瑞兵集體全部倒地身亡。娜塔莎用權杖關上了大門，東尼也在大門關閉的一刻掉回了地球，也在掉下的同時被班納搭救。東尼被班納的一聲吼叫而驚醒，所有人瞬間鬆了口氣，而全軍覆沒、油盡燈枯的洛奇遭全體復仇者截獲。
 事情結束後，眾英雄在堪稱完好的餐廳裡靜靜地吃沙威瑪，洛奇的權杖被神盾局回收進行研究。幾天後，所有英雄前去歡送索爾的離開，索爾和眾人分別後，帶著被拷上手銬及口罩的洛奇一起拿著宇宙魔方回歸了阿斯嘉。東尼與小辣椒決定將史塔克大樓翻新擴建，並定名為『復仇者大樓』；其他英雄也都各奔東西。在航空母艦裏，瑪莉亞問了尼克關於如果情況再次發生怎麽辦，尼克回答她：「無論發生什麼事情，他們一定會回來」！
-在宇宙的另一邊，齊塔瑞兵的幕後主使者「薩諾斯」聽了自己的僕人的報告：「地球人沒有他們想像中的那麽脆弱，而內心也很難被統治，挑戰他們如同自尋死路」！但此時，薩諾斯卻自己站起來觀望整片宇宙，而嘴上也露出尖利的笑容。</mutableString>
+在宇宙的另一邊，齊塔瑞兵的幕後主使者「薩諾斯」聽了自己的僕人的報告：「地球人沒有他們想像中的那麽脆弱，而內心也很難被統治，挑戰他們如同自尋死路」！但此時，薩諾斯卻自己站起來觀望整片宇宙，而嘴上也露出尖利的笑容。</string>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="21"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advenger" translatesAutoresizingMaskIntoConstraints="NO" id="vFa-ub-RyZ">
-                                        <rect key="frame" x="0.0" y="83" width="414" height="229"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -848,7 +848,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="92a-ti-gzH" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="07D-dc-gvj"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hSR-fD-ssf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hSR-fD-ssf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
