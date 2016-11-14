@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--marvel-->
+        <scene sceneID="hF1-35-bV3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="marvel" storyboardName="Main" referencedIdentifier="marvel" id="bma-BD-7uC" userLabel="marvel" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wUw-lm-ycA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1489.1304347826087" y="14.673913043478262"/>
+        </scene>
+        <!--美國隊長3 英雄內戰-->
+        <scene sceneID="mXF-89-Lx4">
+            <objects>
+                <viewController restorationIdentifier="war" storyboardIdentifier="war" id="VWr-ND-nJm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6gi-VA-2Iv"/>
+                        <viewControllerLayoutGuide type="bottom" id="QXV-dJ-Lx0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Mr-Dy-csp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-vN-MW5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yP4-li-1pp">
+                                        <rect key="frame" x="65" y="387" width="131" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.02253767512" green="0.0039091369689999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES"/>
+                                        </accessibility>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="反註冊派">
+                                                    <attributes>
+                                                        <color key="NSBackgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="30" name=".PingFangTC-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <state key="highlighted">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="美國隊長">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name=".PingFangTC-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="civilwar2" translatesAutoresizingMaskIntoConstraints="NO" id="S0O-JC-Edx">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="civilwar" translatesAutoresizingMaskIntoConstraints="NO" id="VlC-DG-Enq">
+                                        <rect key="frame" x="0.0" y="185" width="414" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Piw-wH-geH">
+                                        <rect key="frame" x="0.0" y="444" width="414" height="201"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                        <mutableString key="text">1991年，九頭蛇位於西伯利亞的地下基地裏，被洗腦並改造成「超級戰士」的巴奇·巴恩斯從冷凍中喚醒後，奉命攔截了一輛載有超級戰士血清的汽車，最後將血清帶回給自己的監管人。在今日，「蘇科維亞戰役」過去了一年，由「美國隊長」史蒂芬·羅傑斯、「獵鷹」山姆·威爾森、「黑寡婦」娜塔莎·羅曼諾夫、以及「緋紅女巫」汪達·馬克希莫夫組成的「復仇者聯盟」，在奈及利亞拉哥斯抓獲了企圖盜取生化武器的前神盾局特工兼九頭蛇成員布洛克·朗姆洛。布洛克見自己走投無路而啟動了身上的自爆裝置，原想炸死史蒂芬；而汪達通過念力將他的自爆衝擊轉移至空中，卻不慎波及到了旁邊的一座大樓，造成了大樓裏多數死傷。
+因為這件事，復仇者聯盟再度受到世界的譴責與爭論，美國國務卿撒迪厄斯·羅斯提議復仇者的諸位簽署《蘇科維亞協議》：一個由聯合國擬定的超級英雄註冊法案，建立一個特殊小組來負責監督復仇者們的一切行動，以防止同樣的災難再度發生。協議雖然已經被117個國家認可，但在復仇者之間卻出現了兩極化爭議。「鋼鐵人」東尼·史塔克基於造就蘇科維亞災難的愧疚而決定帶頭簽署，但史蒂芬卻強烈反對，認為他們如簽下去就會從此淪為政府的傀儡。
+這時，佩姬·卡特在倫敦安詳離世，享年95歲；史蒂芬悲痛地將愛人下葬後，在葬禮上巧遇了守護過自己的前神盾局女特工雪倫·卡特，並得知她是佩姬的侄女。娜塔莎出席了在維也納舉辦的簽署協議研討會，但會議途中發生了一場炸彈襲擊，造成瓦干達的國王帝查卡身亡。監控錄像顯示兇手是久未露面的「酷寒戰士」巴奇·巴恩斯，雪倫所工作的「聯合反恐部隊」則奉命追殺他，但帝查卡的兒子、瓦干達王儲帝查拉則誓言要為父報仇。史蒂芬由於始終不想放棄朋友，於是搶先來到布加勒斯特找到了躲藏在此的巴奇。巴奇表明自己對爆炸一無所知，但此時德國特種部隊開始攻堅，巴奇只能拿裝備跳樓逃跑，而身穿「黑豹」戰甲的帝查拉卻突然現身，打算搶先一步殺了他。帝查拉追逐著巴奇穿越了地下隧道，史蒂芬和山姆也尾隨在後；在一物降一物之下，四個人最後全部被特種部隊抓獲，被送至德國柏林的聯合反恐總部。
+與此同時，爆炸案的幕後黑手赫爾穆特·齊莫，在克里夫蘭找到並殺害了巴奇當初的九頭蛇監管人瓦希里·卡爾波夫，從他的住處找到了記載著酷寒戰士洗腦口令的「紅皮書」。他隨後侵入了反恐總部，冒充一名心理醫生來和巴奇會談，最後在自己設定的斷電一刻念出了洗腦口令，導致巴奇再度淪為了見佛殺佛的酷寒戰士。齊莫向巴奇問清楚關於1991年的任務後將他放出去，巴奇一路上擋我者死，跑到屋頂打算開直升機逃跑卻被史蒂芬制止，兩人與直升機一同掉入河中；巴奇在頭部受到重擊下不僅迴歸了自我，甚至還恢復了所有記憶。巴奇清醒後對史蒂芬解釋說齊莫才是幕後主使，並推測他即將去西伯利亞的基地去釋出其餘五名處於冷凍狀態的超級戰士。史蒂芬由於協議而無法告知東尼與政府的情況下，決定和山姆孤軍奮戰，並召來了支援自己的汪達、「鷹眼」克林特·巴頓、包括新加入的「蟻人」史考特·朗恩，計畫趁齊莫喚醒其他戰士之前阻止他。
+東尼由於被羅斯限於三十六小時之內緝拿史蒂芬等人，於是聯合了其他贊成派復仇者們速戰速決，而東尼也帶了彼得·帕克入伍，一個生活在紐約皇后區、擁有蜘蛛爬行能力與發射蛛絲而秘密懲奸鬥惡的高中生。同時，史蒂芬他們來到萊比錫／哈雷機場打算搭「昆式戰機」逃離國家，但東尼、羅德、娜塔莎、帝查拉、彼得、包括幻視開始盡全力阻止他們。兩派復仇者為了各自的理念而在機場裏進行了一場「英雄內戰」，雙方都各自陷入苦戰之下，山姆、汪達、巴頓和史考特只能盡全力掩護著史蒂芬和巴奇逃跑，而娜塔莎最後也選擇放走他們倆。幻視最後為了阻止戰機而發射了寶石光束，但光束卻不慎打中飛在空中的羅德，導致羅德伴隨著戰甲墜落至地面、摔成了重傷險癱瘓。山姆等人最後遭到捕獲後被集體視為反抗者，被關進位於太平洋之間的「浮橋監獄」，而娜塔莎得知自己即將受到政府追捕而踏上逃亡之路。
+不久，東尼從人工智慧「星期五」口中得知，真正要在反恐總部中審問巴奇的心理醫生，被發現陳屍在柏林的酒店裏，兇手則是身為前蘇科維亞軍官的齊莫。東尼將所有線索拼湊在一起後才發現巴奇實被齊莫陷害，為了不走漏訊息而在沒有知會政府的情況下獨自前往西伯利亞，而帝查拉也駕駛戰機跟蹤在東尼身後。當史蒂芬與巴奇潛入基地裏搜查時，東尼趕到後也追了上來，決定跟他們去看看究竟。但他們最後發現其他處於冰凍狀態的戰士們已經集體遭到槍決。齊莫現身後表明自己只是為了在蘇科維亞慘死的家人復仇，並在走前又給了他們「當頭一棒」，播放了巴奇在1991年12月26日攔截超級戰士血清任務時的監控錄像，顯示了巴奇親手殘殺了當時坐在車上的霍華與瑪麗亞·史塔克。
+東尼看完錄像開始陷入悲憤，得知史蒂芬也隱瞞這件事許久，在一瞬間開始對他們倆大打出手。史蒂芬即便左右為難，但也只能盡全力保護巴奇免受東尼傷害。三個人在核彈發射井中又進行了一場惡戰，巴奇的鋼鐵左臂被東尼用衝擊砲溶解，而史蒂芬費盡全力才將東尼制伏，將巴奇救走時、正式拋下了自己的盾牌。在基地外，齊莫聽完了自己家人死前的電話錄音後，認為自己達成了復仇使命而準備飲彈自盡。然而，在基地裏聽到真相的帝查拉制止了他，而帝查拉即使面對著殺父仇人，但看到復仇者自相殘殺後決定不再復仇，最後將齊莫交給反恐部隊審判。
+內戰過後，東尼回到復仇者總部協助羅德做複健，並收到史蒂芬寄來的郵件，史蒂芬在信中表明了自己隱瞞實情的歉意後，給了東尼一支聯絡的手機，說他如有需要就可以聯絡他們。同時，史蒂芬攻進浮橋監獄救出了被囚禁的山姆等人，而所有反對派英雄們最後一致得到帝查拉的庇護，藏身至瓦干達叢林深處的秘密機構。巴奇為了不想再次被人操縱而自願進入一個冬眠艙，好讓史蒂芬來尋找洗腦的解決方案。另一方面，彼得回家後為自己的梅嬸講述了自己的傷勢何來，並開始測試了東尼為他研發的「蜘蛛程式」。</mutableString>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMd-fH-0xk">
+                                        <rect key="frame" x="0.0" y="673" width="414" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES"/>
+                                        </accessibility>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Back to MARVEL">
+                                                    <attributes>
+                                                        <color key="NSBackgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="36" name=".PingFangTC-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="bma-BD-7uC" kind="presentation" id="wsd-7K-9D4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRQ-PX-tuU">
+                                        <rect key="frame" x="226" y="387" width="123" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES"/>
+                                        </accessibility>
+                                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="註冊派">
+                                                    <attributes>
+                                                        <color key="NSBackgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="NSColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="30" name=".PingFangTC-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <state key="highlighted">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="鋼鐵人">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name=".PingFangTC-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="美國隊長3 英雄內戰" id="1b0-jg-DCX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTZ-fq-hzF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="571.01449275362324" y="61.956521739130437"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xIN-HK-neH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qPO-aW-itq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cY7-XJ-nE2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VWr-ND-nJm" kind="relationship" relationship="rootViewController" id="6Pi-lj-CvR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yiB-hn-uMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336.23188405797106" y="61.956521739130437"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="civilwar" width="275" height="183"/>
+        <image name="civilwar2" width="1078" height="450"/>
+    </resources>
+</document>
